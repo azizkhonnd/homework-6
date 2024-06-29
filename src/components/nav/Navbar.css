@@ -1,0 +1,37 @@
+.navWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 60px;
+    background: #000;
+
+}
+
+
+.NavContainer {
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.navItem {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+
+
+.navLink {
+    font-weight: 300;
+    font-size: 15px;
+    color: #ffffff;
+    transition: 0.3s;
+   &:hover{
+   color: #1ce136;
+   }
+}
+
+
+

@@ -1,0 +1,50 @@
+.aboutContainer {
+    background-image: url('../../bg-body.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.interestsContainer {
+    width: 400px;
+    margin-top: -50px;
+    margin-left: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 44px;
+}
+
+
+.aboutTitle {
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.aboutWrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: -25px;
+    width: 500px;
+    margin-left: 100px;
+}
+
+
+.interestsItem{
+    color: #ffffff;
+}
+
+.aboutSubTitle{
+    color: #ffffff;
+}
+
+
+.interestsTitle{
+    color: #ffffff;
+}
